@@ -531,8 +531,9 @@ int move_enemy(int &ex,int &ey)
     else {
     remove_e1(ex,2);
     remove_e2(ex,2);
-    
-        ex=2;
+    ex=2;
+    enemy1(ex,2);
+    enemy2(ex,2);
 
     }
    
